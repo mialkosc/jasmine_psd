@@ -1,0 +1,59 @@
+.page {
+	margin: auto;
+	background-color: #EEEEEE;
+	overflow: hidden;
+}
+
+.top_background {
+	height: 29%; /*out of PSD file: entire page is 1400px and the upper section is 406px , so 406/1400 = 29%*/
+	width: 100%;
+	background-color: #FFDDCC;
+}
+
+.logo_cont {
+	overflow: hidden; /*that's here only because I don't have a logo image that is used in PSD*/
+	width: 28.41796875%;/* 291/1024 = 28.41796875%*/
+	height: 79.802955665%; /* 324/406 = 79.802955665%*/
+	margin-left: 2.5%;
+}
+
+.banner {
+	height: 4px;
+	width: 95%;
+	background-color: #FFFFFF;
+	margin: auto;
+	margin-bottom: 8px; /*that's here so that LOGO is set 8px under banner - just like in PSD. Should I set it using 
+							percentages?*/
+}
+
+.gray_banner {
+	background-color: #999999;
+	width: 100%;
+	height: 7px;
+}
+
+.left_column {
+	width: 281px;
+	height: 100%;
+	background-color: #DDFFFF;
+}
+
+.list {
+	margin: 0;
+}
+
+.list_item {
+	list-style: none;
+	height: 45px;
+	width: 201px;
+	margin: 2px;
+	border: 1px solid black;
+}
+
+.menu {
+	min-height: 55px;
+	height: 13.54679803; /* .menu is a .top_background's child, so 55px (which is taken from PSD) should be
+								55/406 = 13.54679803% */
+	width: 100%;
+	background-color: #EEBBEE;
+}
