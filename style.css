@@ -54,11 +54,11 @@ html, body {
 	top: -6px;/*same here. 6px again. Why? I'm missing something here. Find out later and fix.*/
 }
 
-ul {
+.list {
 	margin: 0;
 }
 
-li {
+.list_item {
 	list-style: none;
 	height: 45px;
 	width: 201px;
